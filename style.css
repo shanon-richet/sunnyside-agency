@@ -1,0 +1,142 @@
+body {
+    max-width: 1440px;
+    background-color: hsl(210, 4%, 67%);
+    font-size: 15px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.head {
+    display:grid;
+    grid-template-columns: auto auto ;
+    column-gap: 100px;
+    width: 540px;
+    height: 660px;
+    margin-left: 50px;
+}
+
+.image-header {
+    width: 540px;
+    height:220px;
+    color:white;
+}
+
+.text-header{
+    position:absolute;  
+    top: 10px;
+}
+
+.sunnyside {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.menu {
+    margin-top: -10px;
+    margin-left: 260px;
+    word-spacing: 5px;
+}
+
+.Contact {
+    width: 80px;
+    height:30px;
+    color: black;
+    background-color:white;
+    border-radius: 15%;;
+}
+
+.creative {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+
+.oeuf {
+    width: 540px ;
+    height: 220px;
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+h2 {
+    margin-left: 20px;
+}
+h4 {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+u{
+text-decoration: 5px underline yellow;
+}
+
+.area{
+    width: 270px;
+    height:220px;
+    background-color: white;   
+}
+
+.brand {
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.verre {
+    width: 540px;
+    height:220px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+}
+
+.cerise {
+    width: 270px;
+    height:220px;
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+.orange {
+    width: 270px;
+    height: 220px;
+}
+
+.text {
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    top: 50px;
+    text-align: center;
+}
+
+.test {
+    background-color: white;
+    width: 540px;
+    height: 220px;
+}
+
+.end {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.contact {
+    width: 540px;
+    height: 150px;
+    background-color: hsl(168, 34%, 41%);
+    text-align: center;
+    color: hsl(167, 40%, 24%);
+}
+
+.fa {
+    color: hsl(167, 40%, 24%);
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.by {
+margin-left: 600px;
+margin-top: 10px;
+}
