@@ -1,142 +1,369 @@
-body {
-    max-width: 1440px;
-    background-color: hsl(210, 4%, 67%);
-    font-size: 15px;
-    font-family: 'Barlow', sans-serif;
-}
+@media screen and (min-width: 768px){
+    body {
+        background-color: hsl(210, 4%, 67%);
+        font-size: 15px;
+        font-family: 'Barlow', sans-serif;
+    }
+    
+    .head {
+        display:grid;
+        grid-template-columns: auto auto ;
+        column-gap: 100px;
+        width: 540px;
+        height: 660px;
+        margin-left: 50px;
+    }
+    
+    .image-header {
+        width: 540px;
+        height:220px;
+        color:white;
+    }
 
-.head {
-    display:grid;
-    grid-template-columns: auto auto ;
-    column-gap: 100px;
-    width: 540px;
-    height: 660px;
-    margin-left: 50px;
-}
+    .image {
+        width: 270px;
+        height: 220px;
+        color: whitesmoke;
+    }
+    
+    .text-header{
+        position:absolute;  
+        top: 10px;
+    }
+    
+    .sunnyside {
+        color:white;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
 
-.image-header {
-    width: 540px;
-    height:220px;
-    color:white;
-}
+    .menu {
+        list-style: none;
+        margin-left: 400px;
+        margin-top: -20px;
+    }
+    
+    a {
+        list-style-type: none;
+        color: white;
+        margin-top: -30px;
+        margin-left: 10px;
+    }
 
-.text-header{
-    position:absolute;  
-    top: 10px;
-}
-
-.sunnyside {
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.menu {
-    margin-top: -10px;
-    margin-left: 260px;
-    word-spacing: 5px;
-}
-
-.Contact {
-    width: 80px;
-    height:30px;
-    color: black;
-    background-color:white;
-    border-radius: 15%;;
-}
-
-.creative {
-    margin-left: 200px;
+    a:hover {
+        cursor:pointer;
+        color:black;
+        background-color:white;
+        border-radius: 50%;
+    }
+    
+    .Contact {
+        width: 80px;
+        height:30px;
+        color: black;
+        background-color:white;
+        border-radius: 15%;;
+    }
+    
+ h1 {
+     color:white;
+    margin-left: 160px;
     margin-top: 50px;
+    }
+    
+    
+    .oeuf {
+        width: 540px ;
+        height: 220px;
+        display: grid;
+        grid-template-columns: auto auto;
+    
+    }
+    
+    h2 {
+       text-align: center;
+    }
+    h4 {
+        margin-left: 150px;
+    }
+    
+    u{
+    text-decoration: 5px underline yellow;
+    }
+    
+    .area{
+        width: 270px;
+        height:220px;
+        background-color: white;   
+    }
+    
+    .brand {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    
+    .verre {
+        width: 540px;
+        height:220px;
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: white;
+    }
+
+    .bottom{
+        grid-template-rows: auto auto auto ;
+        display: grid;
+        width: 540px;
+        height: 880px;
+    }
+    
+    .cerise {
+        width: 270px;
+        height:220px;
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .orange {
+        width: 270px;
+        height: 220px;
+    }
+    
+    .text {
+        width: 200px;
+        height: 200px;
+        position:absolute;
+        top: 50px;
+        text-align: center;
+    }
+
+    .pictures {
+        width: 30px;
+        height:30px;
+        border-radius: 50%;
+    }
+
+    .témoignages {
+        background-color: white;
+        width:540px;
+        height: 220px;
+    }
+    
+    .test {
+        text-align: center;
+        background-color: white;
+        width: 540px;
+        height: 220px;
+        display:grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 10px;
+    }
+.clients{
+    font-size: 12px;
 }
-
-
-.oeuf {
-    width: 540px ;
-    height: 220px;
-    display: grid;
-    grid-template-columns: auto auto;
-
-}
-
-h2 {
-    margin-left: 20px;
-}
-h4 {
-    margin-left: 150px;
-    margin-top: 50px;
-}
-
-u{
-text-decoration: 5px underline yellow;
-}
-
-.area{
-    width: 270px;
-    height:220px;
-    background-color: white;   
-}
-
-.brand {
-    font-size: 13px;
-    margin-left: 10px;
-}
-
-.verre {
-    width: 540px;
-    height:220px;
-    display: grid;
-    grid-template-columns: auto auto;
-    background-color: white;
-}
-
-.cerise {
-    width: 270px;
-    height:220px;
-    display:grid;
-    grid-template-columns: auto auto;
-}
-
-.orange {
-    width: 270px;
-    height: 220px;
-}
-
-.text {
+    
+    .img {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width:180px;
+        height:220px;
+        margin:0px;
+    }
+    
+    .contact {
+        margin:0px;
+        width: 540px;
+        height: 150px;
+        background-color: hsl(168, 34%, 41%);
+        text-align: center;
+        color: hsl(167, 40%, 24%);
+    }
+    
+    .fa {
+        color: hsl(167, 40%, 24%);
+        font-size: 20px;
+        text-decoration: none;
+        border-radius: 50%;
+        margin: 5px;
+    }
+    
+    .by {
+    margin-left: 600px;
+    margin-top: -200px;
     width: 200px;
-    height: 200px;
-    position:absolute;
-    top: 50px;
-    text-align: center;
-}
-
-.test {
-    background-color: white;
-    width: 540px;
-    height: 220px;
-}
-
-.end {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
-.contact {
-    width: 540px;
     height: 150px;
-    background-color: hsl(168, 34%, 41%);
-    text-align: center;
-    color: hsl(167, 40%, 24%);
+    }    
 }
 
-.fa {
-    color: hsl(167, 40%, 24%);
-    font-size: 20px;
-    text-decoration: none;
-    border-radius: 50%;
-    margin: 5px;
+@media screen and (max-width: 300px){
+    body {
+        max-width: 300px;
+        background-color: hsl(210, 4%, 67%);
+        font-size: 9px;
+        font-family: 'Barlow', sans-serif;
+    }
+    
+    .head {
+        width: 300px;
+        height: 1600px;
+        margin-left: 50px;
+    }
+    
+    .image-header {
+        width: 300px;
+        height:220px;
+        color:white;
+    }
+
+    .image {
+        width: 150px;
+        height: 220px;
+        color: whitesmoke;
+    }
+    
+    .text-header{
+        position:absolute;  
+        top: 10px;
+    }
+
+    h4 {
+        float:right;
+    }
+    
+    .sunnyside {
+        color: white;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    ul {
+        margin-top: -10px;
+        margin-left: 75px;
+        word-spacing: 2px;
+    }
+    a {
+        color: white;
+    }
+    a:hover {
+        cursor:pointer;
+        color: black;
+        background-color:white;
+        border-radius: 50%;
+    }
+    
+  h1 {
+        margin-left:50px;
+        margin-top: 150px;
+        color:whitesmoke;
+    }
+    
+    
+    .oeuf {
+        width: 300px ;
+        height: 220px;
+        display: grid;
+        grid-template-columns: auto auto;
+    
+    }
+    h2 {
+        margin-left: 10px;
+    }
+    h4 {
+      text-align: center;
+    }
+    
+    u{
+    text-decoration: 4px underline yellow;
+    }
+    
+    .area{
+        width: 150px;
+        height:220px;
+        background-color: white;   
+    }
+    
+    .brand {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    
+    .verre {
+        width: 300px;
+        height:220px;
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: white;
+    }
+
+    
+    .cerise {
+        width: 300px;
+        height:220px;
+        display:grid;
+        grid-template-columns: auto auto;
+        position:relative;
+    }
+    
+    .orange {
+        width: 150px;
+        height: 220px;
+        position:relative;
+    }
+    
+    .text {
+        
+        position:absolute;
+    }
+
+    .témoignages {
+        background-color: white;
+        width:300px;
+        height: 220px;
+    }
+
+    .pictures {
+        width: 20px;
+        height:20px;
+        border-radius: 50%;
+    }
+    
+    .test {
+        width: 300px;
+        height: 150px;
+        display:grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .clients{
+        text-align: center;
+    }
+    
+    .img {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100px;
+        height:220px;
+    }
+    
+    .contact {
+        width: 300px;
+        height: 130px;
+        background-color: hsl(168, 34%, 41%);
+        text-align: center;
+        color: hsl(167, 40%, 24%);
+    }
+    
+    .fa {
+        color: hsl(167, 40%, 24%);
+        font-size: 20px;
+        text-decoration: none;
+        border-radius: 50%;
+        margin: 5px;
+    }
+    
+    .by {
+    margin-left: 600px;
+    margin-top: 10px;
+    } 
 }
 
-.by {
-margin-left: 600px;
-margin-top: 10px;
-}
